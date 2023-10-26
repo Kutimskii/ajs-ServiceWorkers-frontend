@@ -13,7 +13,7 @@ if (navigator.serviceWorker) {
 let result;
 const createRequest = async () => {
   try {
-    const respone = await fetch("https://sw-backend.onrender.com?method=allNews");
+    const respone = await fetch("https://sw-gjou.onrender.com?method=allNews");
     if (respone.status >= 200) {
       document.querySelector(".modal_container").classList.remove("active");
       document.querySelector("body").style.cursor = "initial";
