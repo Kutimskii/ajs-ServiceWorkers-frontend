@@ -14,7 +14,6 @@ let result;
 const createRequest = async () => {
   try {
     const respone = await fetch("http://localhost:3000?method=allNews");
-    console.log(respone);
     if (respone.status >= 200) {
       document.querySelector(".modal_container").classList.remove("active");
       document.querySelector("body").style.cursor = "initial";
@@ -37,7 +36,7 @@ const createRequest = async () => {
         );
       });
     } else {
-      alert("sdfdsf");
+      return;
     }
   } catch (error) {
     document.querySelector("body").style.cursor = "initial";
