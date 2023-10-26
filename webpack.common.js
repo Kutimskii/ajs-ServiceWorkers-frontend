@@ -52,7 +52,7 @@ module.exports = {
       clientsClaim: true,
       skipWaiting: true,
       cleanupOutdatedCaches: true,})
-    //   // runtimeCaching: [{
+    // //   // runtimeCaching: [{
     //   //   // Match any request that ends with .png, .jpg, .jpeg or .svg.
     //   //   urlPattern: /\.(?:png|jpg|jpeg|svg)$/,
 

@@ -1,2 +1,2 @@
-# HTTP
-[![Build status](https://ci.appveyor.com/api/projects/status/b3l0ltfnw537adsr?svg=true)](https://ci.appveyor.com/project/Kutimskii/ajs-http) https://kutimskii.github.io/ajs-http/
+# SW
+[![Build status](https://ci.appveyor.com/api/projects/status/hcdlp2bw9tnvoo31?svg=true)](https://ci.appveyor.com/project/Kutimskii/ajs-serviceworkers-frontend) https://kutimskii.github.io/ajs-http/
